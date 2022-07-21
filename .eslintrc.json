@@ -1,0 +1,55 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/jsx-runtime",
+    "prettier",
+    "plugin:tailwindcss/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "simple-import-sort",
+    "import",
+    "tailwindcss"
+  ],
+  "rules": {
+    "no-console": ["error", { "allow": ["error"] }],
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "prefer-destructuring": "warn",
+    "prefer-rest-params": "warn",
+    "prefer-spread": "warn",
+    "yoda": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "tailwindcss/classnames-order": "warn",
+    "tailwindcss/no-custom-classname": "warn",
+    "tailwindcss/no-contradicting-classname": "error"
+  }
+}

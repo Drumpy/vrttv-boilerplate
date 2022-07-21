@@ -1,0 +1,62 @@
+name: ♾️ Deployment Pipeline
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
+  push:
+    branches: [main]
+
+jobs:
+
+  check_skip:
+    name: 🛑 Cancel Previous Redundant Builds
+    runs-on: ubuntu-18.04
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: 🛑 Cancel Previous Redundant Builds
+        uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          access_token: ${{ github.token }}
+
+  assign_pr_owner:
+    name: 📝 Assign PR to creator
+    runs-on: ubuntu-18.04
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: 📝 Assign PR to creator
+        uses: thomaseizinger/assign-pr-creator-action@v1.0.0
+        if: github.event_name == 'pull_request' && github.event.action == 'opened'
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+  lint:
+    name: 💅🏼 Linting
+    runs-on: ubuntu-18.04
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: 💅🏼 Linting
+        run: npm run lint
+
+  deploy_to_vercel:
+    needs: [lint]
+    name: 🔗 Deploy to Vercel
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-args: '--prod'
+          vercel-org-id: ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
