@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="#">
-    <img src="https://i.ibb.co/zf7gjMR/Card-Outline.png" alt="Logo">
+    <img src="https://i.ibb.co/mqPXzct/VRTTV-Banner.png" alt="VRTTV Banner">
   </a>
 
   <h2 align="center">VRTTV Boilerplate</h2>
@@ -42,7 +42,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](#) -->
 
-Are you tired of always creating the same structure from scratch for your projects? I also. 🥱
+Are you tired of always creating the same structure from scratch for your projects? Me too. 🥱
 
 This is my _go-to_ when I start a new project on front-end development.
 
@@ -183,7 +183,7 @@ You need this technologies :
 
 <!-- GitHhub Actions Pipeline -->
 
-# ♾️ GitHhub Actions Deployment Pipeline
+# ♾️ Github Actions Deployment Pipeline
 
 - 🛑 Cancel Previous Redundant Builds
 - 📝 Assign PR to creator
