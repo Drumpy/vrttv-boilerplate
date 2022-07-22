@@ -9,8 +9,14 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+<p align="center">
+  <a href="https://github.com/Drumpy/vrttv-boilerplate/stargazers">
+    <img src="https://img.shields.io/github/stars/Drumpy/vrttv-boilerplate.svg?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/Drumpy/vrttv-boilerplate/issues">
+    <img src="https://img.shields.io/github/issues/Drumpy/vrttv-boilerplate.svg?style=for-the-badge" />
+  </a>
+</p>
 
 <!-- PROJECT LOGO -->
 <div align="center">
@@ -47,7 +53,10 @@ If you want to contribute, feel free to submit Pull Request 💚
 
 # 🔮 What’s inside?
 
-- ⚡ [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- ⚡ [Vite](https://vitejs.dev/) - Next generation frontend tooling.
+  - 📦 [Imagemin](https://github.com/vbenjs/vite-plugin-imagemin) - Plugin for compressing image assets.
+  - 📦 [Vite Plugin HTML](https://github.com/vbenjs/vite-plugin-html) - Plugin for processing HTML with minify.
+- 🌟 [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - 🔀 [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview) - Declarative routing for React apps at any scale.
 - 💜 [TypeScript](https://www.typescriptlang.org/) - A superset of JavaScript.
 - 🎨 [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework.
@@ -90,19 +99,19 @@ You need this technologies :
 1. Option 1: Copy just the project scaffolding.
 
 ```bash
-  npx degit Drumpy/vite-boilerplate your-folder-name
+  npx degit Drumpy/vrttv-boilerplate your-folder-name
 ```
 
 1. Option 2: Clone the entire repository.
 
 ```bash
-  git clone https://github.com/Drumpy/vite-boilerplate
+  git clone https://github.com/Drumpy/vrttv-boilerplate
 ```
 
 2. Go to the project directory.
 
 ```bash
-  cd vite-boilerplate
+  cd vrttv-boilerplate
 ```
 
 3. Install dependencies.
@@ -197,10 +206,10 @@ Diego Do Santos - ddosantos@hotmail.com
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/Drumpy/vite-boilerplate.svg?style=for-the-badge
-[contributors-url]: https://github.com/Drumpy/vite-boilerplate/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Drumpy/vite-boilerplate.svg?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/Drumpy/vite-boilerplate.svg?style=for-the-badge
-[stars-url]: https://github.com/Drumpy/vite-boilerplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Drumpy/vite-boilerplate.svg?style=for-the-badge
-[issues-url]: https://github.com/Drumpy/vite-boilerplate/issues
+[contributors-url]: https://github.com/Drumpy/vrttv-boilerplate/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Drumpy/vrttv-boilerplate.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Drumpy/vrttv-boilerplate.svg?style=for-the-badge
+[stars-url]: https://github.com/Drumpy/vrttv-boilerplate/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Drumpy/vrttv-boilerplate.svg?style=for-the-badge
+[issues-url]: https://github.com/Drumpy/vrttv-boilerplate/issues
 [product-screenshot]: https://i.ibb.co/zf7gjMR/Card-Outline.png
