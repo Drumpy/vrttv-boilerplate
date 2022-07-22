@@ -1,6 +1,5 @@
 <div id="top"></div>
 
-<!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
@@ -81,8 +80,7 @@ If you want to contribute, feel free to submit Pull Request 💚
 
 # 🚀 Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+These are the necessary steps to use 💯 of the potential of this boilerplate.
 
 ## 🚨 Prerequisites
 
@@ -99,7 +97,7 @@ You need this technologies :
 1. Option 1: Copy just the project scaffolding.
 
 ```bash
-  npx degit Drumpy/vrttv-boilerplate your-folder-name
+  npx --yes degit Drumpy/vrttv-boilerplate your-folder-name
 ```
 
 1. Option 2: Clone the entire repository.
@@ -167,12 +165,12 @@ You need this technologies :
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## ⚙️ Setup Husky
+## 🐕‍🦺 Setup Husky
 
 1. Run Husky command.
 
 ```bash
-  npx husky install
+  npx --yes husky install
 ```
 
 2. Use Gitmoji CLI to commit changes.
@@ -208,8 +206,4 @@ Diego Do Santos - ddosantos@hotmail.com
 [contributors-shield]: https://img.shields.io/github/contributors/Drumpy/vite-boilerplate.svg?style=for-the-badge
 [contributors-url]: https://github.com/Drumpy/vrttv-boilerplate/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Drumpy/vrttv-boilerplate.svg?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/Drumpy/vrttv-boilerplate.svg?style=for-the-badge
-[stars-url]: https://github.com/Drumpy/vrttv-boilerplate/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Drumpy/vrttv-boilerplate.svg?style=for-the-badge
-[issues-url]: https://github.com/Drumpy/vrttv-boilerplate/issues
 [product-screenshot]: https://i.ibb.co/zf7gjMR/Card-Outline.png
