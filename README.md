@@ -179,6 +179,15 @@ You need this technologies :
   gitmoji -c
 ```
 
+3. Write your commits following the rules of [Conventional Commit](https://github.com/Drumpy/vrttv-boilerplate#-conventional-commit-rules). Examples:
+
+```bash
+  feat: added navbar component
+```
+```bash
+  fix(navbar): fixed all the broken links
+```
+
 ### 📜 Conventional Commit Rules
 Use this table as a reference when writing commits. Husky will be in charge of checking that the rules will be followed.
 
