@@ -97,37 +97,37 @@ You need this technologies :
 1. Option 1: Copy just the project scaffolding.
 
 ```bash
-  npx --yes degit Drumpy/vrttv-boilerplate your-folder-name
+npx --yes degit Drumpy/vrttv-boilerplate your-folder-name
 ```
 
 1. Option 2: Clone the entire repository.
 
 ```bash
-  git clone https://github.com/Drumpy/vrttv-boilerplate
+git clone https://github.com/Drumpy/vrttv-boilerplate
 ```
 
 2. Go to the project directory.
 
 ```bash
-  cd vrttv-boilerplate
+cd vrttv-boilerplate
 ```
 
 3. Install dependencies.
 
 ```bash
-  npm install
+npm install
 ```
 
 4. Start the server.
 
 ```bash
-  npm run dev
+npm run dev
 ```
 
 5. Open with your browser to see the result.
 
 ```bash
-  http://localhost:5173/
+http://localhost:5173/
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -137,30 +137,30 @@ You need this technologies :
 1. Run Vercel CLI in your project folder. After completed, a folder **.vercel** is created in your root directory.
 
 ```bash
-  vercel --confirm
+vercel --confirm
 ```
 
 2. Go to actions secrets in your Github Repository.
 
 ```bash
-  https://github.com/your-username/your-repo-name/settings/secrets/actions/new
+https://github.com/your-username/your-repo-name/settings/secrets/actions/new
 ```
 
 3. Add this three tokens.
 
 ```bash
-  # Generate this in https://vercel.com/account/tokens
-  VERCEL_TOKEN
+# Generate this in https://vercel.com/account/tokens
+VERCEL_TOKEN
 ```
 
 ```bash
-  # It is located in 'project.json' inside the '.vercel' folder
-  ORG_ID
+# It is located in 'project.json' inside the '.vercel' folder
+ORG_ID
 ```
 
 ```bash
-  # It is located in 'project.json' inside the '.vercel' folder
-  PROJECT_ID
+# It is located in 'project.json' inside the '.vercel' folder
+PROJECT_ID
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -170,22 +170,22 @@ You need this technologies :
 1. Run Husky command.
 
 ```bash
-  npx --yes husky install
+npx --yes husky install
 ```
 
 2. Use Gitmoji CLI to commit changes.
 
 ```bash
-  gitmoji -c
+gitmoji -c
 ```
 
 3. Write your commits following the rules of [Conventional Commit](https://github.com/Drumpy/vrttv-boilerplate#-conventional-commit-rules). Examples:
 
 ```bash
-  feat: added navbar component
+feat: added navbar component
 ```
 ```bash
-  fix(navbar): fixed all the broken links
+fix(navbar): fixed all the broken links
 ```
 
 ### 📜 Conventional Commit Rules
