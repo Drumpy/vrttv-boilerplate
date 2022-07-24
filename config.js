@@ -23,8 +23,8 @@ const config = {
           name: 'removeViewBox'
         },
         {
-          name: 'removeEmptyAttrs',
-          active: false
+          name: 'removeStyleElement',
+          active: true
         }
       ]
     }
