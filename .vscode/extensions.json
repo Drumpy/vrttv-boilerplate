@@ -5,6 +5,7 @@
     "usernamehw.errorlens",
     "redhat.vscode-yaml",
     "bradlc.vscode-tailwindcss",
-    "csstools.postcss"
+    "csstools.postcss",
+    "stylelint.vscode-stylelint"
   ]
 }
