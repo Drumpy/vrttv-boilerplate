@@ -11,11 +11,14 @@
     "dev": "npm run reset:vite && vite",
     "build": "npm run reset:vite && tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ignore-path .gitignore . --ext .js,.jsx,.ts,.tsx",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|js|jsx|json|css|md|mdx|html)\"",
+    "prettier:fix": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|js|jsx|json|css|md|mdx|html)\" --write",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix",
     "lint-staged": "lint-staged — config .lintstagedrc",
     "clean": "rimraf node_modules && npm install --no-audit --no-fund --omit=optional",
-    "reset:vite": "rimraf ./.vite-cache ./dist"
+    "reset:vite": "rimraf ./.vite-cache ./dist",
+    "prepare": "husky install"
   },
   "browserslist": [
     "defaults",
