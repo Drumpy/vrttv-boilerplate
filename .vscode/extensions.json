@@ -6,6 +6,7 @@
     "redhat.vscode-yaml",
     "bradlc.vscode-tailwindcss",
     "csstools.postcss",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "editorconfig.editorconfig"
   ]
 }

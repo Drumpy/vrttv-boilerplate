@@ -63,7 +63,7 @@
         "printWidth": 100,
         "tabWidth": 2,
         "semi": false,
-        "bracketSpacing": false,
+        "bracketSpacing": true,
         "arrowParens": "always",
         "endOfLine": "auto",
         "trailingComma": "none",
@@ -113,8 +113,8 @@
     ],
     "padding-line-between-statements": [
       "warn",
-      {"blankLine": "always", "prev": "*", "next": "return"},
-      {"blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
+      { "blankLine": "always", "prev": "*", "next": "return" },
+      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
       {
         "blankLine": "any",
         "prev": ["const", "let", "var"],
