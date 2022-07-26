@@ -1,15 +1,15 @@
 /** @type {import('vite').UserConfig} */
 
 import react from '@vitejs/plugin-react'
-import {defineConfig} from 'vite'
-import {VitePluginFonts} from 'vite-plugin-fonts'
-import {createHtmlPlugin} from 'vite-plugin-html'
+import { defineConfig } from 'vite'
+import { VitePluginFonts } from 'vite-plugin-fonts'
+import { createHtmlPlugin } from 'vite-plugin-html'
 import viteImagemin from 'vite-plugin-imagemin'
 
 import config from './config.js'
 import postcss from './postcss.config.js'
 
-const {imagemin} = config
+const { imagemin } = config
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -41,9 +41,9 @@ export default defineConfig({
   },
   resolve: {
     alias: [
-      {find: '@/', replacement: '/src'},
-      {find: '@/Assets', replacement: '/src/assets'},
-      {find: '@/Components', replacement: '/src/components'}
+      { find: '@/', replacement: '/src' },
+      { find: '@/Assets', replacement: '/src/assets' },
+      { find: '@/Components', replacement: '/src/components' }
     ]
   }
 })
