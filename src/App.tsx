@@ -1,10 +1,10 @@
 import './index.css'
 
-import react from './images/react.svg'
-import tailwindcss from './images/tailwindcss.svg'
-import typescript from './images/typescript.svg'
-import vercel from './images/vercel.svg'
-import vite from './images/vite.svg'
+import react from '@/Assets/images/react.svg'
+import tailwindcss from '@/Assets/images/tailwindcss.svg'
+import typescript from '@/Assets/images/typescript.svg'
+import vercel from '@/Assets/images/vercel.svg'
+import vite from '@/Assets/images/vite.svg'
 
 function App() {
   return (
@@ -96,12 +96,15 @@ function App() {
             <img alt="Tailwindcss Icon" className="w-10" src={tailwindcss} />
             <img alt="Vercel Icon" className="w-10" src={vercel} />
           </div>
-          <h2 className="text-6xl font-bold">VRTTV Boilerplate</h2>
+          <h2 className="text-7xl font-bold leading-10">
+            VRTTV <br />
+            <span className="text-3xl italic">Boilerplate</span>
+          </h2>
           <p className="max-w-xs text-lg sm:max-w-none">
             Avoid setting up a project from scratch. Start using VRTTV 🎉
           </p>
           <a
-            className="rounded-full bg-blue-100 p-3 px-5 font-medium uppercase text-blue-700 shadow-blue-800 transition-colors hover:bg-blue-900 hover:text-blue-100"
+            className="rounded-full bg-blue-100 p-3 px-5 font-bold uppercase text-blue-700 shadow-blue-800 transition-colors hover:bg-blue-900 hover:text-blue-100"
             href="https://github.com/Drumpy/vrttv-boilerplate"
             rel="noopener noreferrer"
             target="_blank"
