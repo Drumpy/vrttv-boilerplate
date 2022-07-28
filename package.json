@@ -8,7 +8,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run reset:vite && vite",
+    "dev": "vite",
     "build": "npm run reset:vite && tsc && vite build",
     "preview": "vite preview",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|js|jsx|json|css|md|mdx|html)\"",
