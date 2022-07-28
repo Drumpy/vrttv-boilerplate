@@ -8,7 +8,6 @@ on:
     branches: [main]
 
 jobs:
-
   check_skip:
     name: 🛑 Cancel Previous Redundant Builds
     runs-on: ubuntu-18.04
@@ -60,3 +59,4 @@ jobs:
           vercel-args: '--prod'
           vercel-org-id: ${{ secrets.ORG_ID }}
           vercel-project-id: ${{ secrets.PROJECT_ID }}
+          github-comment: false
