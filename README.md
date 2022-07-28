@@ -28,11 +28,11 @@
     Avoid setting up a project from scratch. Start using VRTTV 🎉
     <br />
     <br />
-    <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://vrttv-boilerplate.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Drumpy/vrttv-boilerplate/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
+    <a href="https://github.com/Drumpy/vrttv-boilerplate/issues">Request Feature</a>
   </p>
 </div>
 
@@ -40,13 +40,11 @@
 
 # 🤔 What’s this?
 
-<!-- [![Product Name Screen Shot][product-screenshot]](#) -->
-
 Are you tired of always creating the same structure from scratch for your projects? Me too. 🥱
 
 This is my _go-to_ when I start a new project on front-end development.
 
-If you want to contribute, feel free to submit Pull Request 💚
+If you found it useful somehow, I would be grateful if you could leave a star in the project's GitHub repository 💚
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -71,7 +69,7 @@ If you want to contribute, feel free to submit Pull Request 💚
   - 🪝 pre-commit
 - 🚫 [Lint Staged](https://github.com/okonet/lint-staged) - Run linters on git staged files.
 - ✍️ [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) with 🎉 [Gitmoji](https://gitmoji.dev/) - A specification for adding human and machine readable meaning to commit messages.
-- 🚦 [GitHub Actions](https://github.com/features/actions) - Automate your workflow on Github.
+- 🚦 [GitHub Actions](https://github.com/features/actions) - Automate your workflow on GitHub.
 - 🔺 [Vercel](https://vercel.com/) - Deploy your application on Vercel.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -86,7 +84,7 @@ These are the necessary steps to use 💯 of the potential of this boilerplate.
 
 You need this technologies :
 
-- [Node.js 16+](https://nodejs.org/en/)
+- [Node 16>=](https://nodejs.org/en/)
 - [Git](https://git-scm.com/downloads/)
 - [Vercel Account](https://vercel.com/signup)
 - [Vercel CLI](https://vercel.com/cli)
@@ -94,13 +92,17 @@ You need this technologies :
 
 ## 💻 Run Locally
 
-1. Option 1: Copy just the project scaffolding.
+1. Option 1: Generate a new repository with this template
+
+- [Use this template](https://github.com/Drumpy/vrttv-boilerplate/generate)
+
+1. Option 2: Copy just the project scaffolding.
 
 ```bash
 npx --yes degit Drumpy/vrttv-boilerplate your-folder-name
 ```
 
-1. Option 2: Clone the entire repository.
+1. Option 3: Clone the entire repository.
 
 ```bash
 git clone https://github.com/Drumpy/vrttv-boilerplate
@@ -124,15 +126,9 @@ npm install
 npm run dev
 ```
 
-5. Open with your browser to see the result.
-
-```bash
-http://localhost:5173/
-```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## ⚙️ Setup Github Actions
+## ⚙️ Setup GitHub Actions
 
 1. Run Vercel CLI in your project folder. After completed, a folder **.vercel** is created in your root directory.
 
@@ -140,7 +136,7 @@ http://localhost:5173/
 vercel --confirm
 ```
 
-2. Go to actions secrets in your Github Repository.
+2. Go to actions secrets in your GitHub Repository.
 
 ```bash
 https://github.com/your-username/your-repo-name/settings/secrets/actions/new
@@ -219,7 +215,7 @@ Use this table as a reference when writing commits. Husky will be in charge of c
 
 <!-- GitHhub Actions Pipeline -->
 
-# ♾️ Github Actions Deployment Pipeline
+# ♾️ GitHub Actions Deployment Pipeline
 
 - 🛑 Cancel Previous Redundant Builds
 - 📝 Assign PR to creator
