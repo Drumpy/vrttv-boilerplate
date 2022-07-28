@@ -1,4 +1,4 @@
-import './index.css'
+import './global.css'
 import 'virtual:fonts.css'
 
 import React from 'react'
