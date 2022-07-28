@@ -193,6 +193,10 @@ feat: added navbar component
 fix(navbar): fixed all the broken links
 ```
 
+### 👇 Creating a commit as an example
+
+<img src="https://i.ibb.co/1dBhQ51/Windows-Terminal-wmp-Pxe1-Q3u.gif"/>
+
 ### 📜 Conventional Commit Rules
 
 Use this table as a reference when writing commits. Husky will be in charge of checking that the rules will be followed.
