@@ -21,7 +21,7 @@ export default defineConfig({
       entry: 'src/main.tsx'
     }),
     VitePluginFonts({
-      // Custom fonts.
+      // Custom fonts
       custom: {
         families: [
           {
@@ -29,7 +29,7 @@ export default defineConfig({
             src: './src/assets/fonts/*.woff2'
           }
         ],
-        display: 'auto',
+        display: 'swap',
         preload: true,
         prefetch: false,
         injectTo: 'head-prepend'
